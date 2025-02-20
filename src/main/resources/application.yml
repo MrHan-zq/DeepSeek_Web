@@ -1,0 +1,10 @@
+server:
+  port: 8888
+  ssl:
+    key-store: classpath:mykeystore.jks
+    key-store-password: 12345678
+    key-alias: mykey
+
+weChat:
+  appId: wx258f7c090082d096
+  secret: e171d7ea2bc72125307461c074050197
